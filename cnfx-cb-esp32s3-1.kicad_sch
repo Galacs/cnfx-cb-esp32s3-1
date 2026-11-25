@@ -8846,7 +8846,7 @@
 		)
 		(uuid "84783bfd-5df9-48b1-bf74-6668a144ef1c")
 	)
-	(text "TPS259472\n5V 1A EFUSE"
+	(text "TPS259472\n5V 2A EFUSE"
 		(exclude_from_sim no)
 		(at 34.29 185.928 0)
 		(effects
@@ -23942,7 +23942,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3k3"
+		(property "Value" "1k5"
 			(at 65.532 176.276 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23997,7 +23997,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0402WGF3301TCE"
+		(property "Manufacturer Part Number" "0402WGF1501TCE"
 			(at 64.77 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -24019,7 +24019,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C25890"
+		(property "JLCPCB Part #" "C25867"
 			(at 64.77 180.34 90)
 			(hide yes)
 			(show_name no)
