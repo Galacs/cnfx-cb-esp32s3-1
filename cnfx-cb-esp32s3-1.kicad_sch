@@ -3087,6 +3087,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Schottky_Small"
+				(at -7.112 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_TVS"
 			(pin_numbers
 				(hide yes)
@@ -8416,7 +8584,7 @@
 	)
 	(rectangle
 		(start 17.78 30.48)
-		(end 48.26 57.15)
+		(end 50.8 57.15)
 		(stroke
 			(width 0)
 			(type dash)
@@ -8511,8 +8679,8 @@
 		(uuid "9c4d865a-2df8-4576-a79d-7e6c7c5fc604")
 	)
 	(rectangle
-		(start 50.8 30.48)
-		(end 77.47 57.15)
+		(start 72.39 30.48)
+		(end 99.06 57.15)
 		(stroke
 			(width 0)
 			(type dash)
@@ -8644,7 +8812,7 @@
 	)
 	(text "RGB\nLED"
 		(exclude_from_sim no)
-		(at 55.88 52.578 0)
+		(at 77.47 52.578 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -8972,6 +9140,12 @@
 		(uuid "7b458a42-5d53-410d-84ef-4d17f23eed09")
 	)
 	(junction
+		(at 43.18 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80f6d850-cdeb-424f-9c87-4537efcde62b")
+	)
+	(junction
 		(at 88.9 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9116,6 +9290,12 @@
 		(uuid "ea1a7137-6432-402a-933d-b49e2d270d5c")
 	)
 	(junction
+		(at 43.18 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec5b8770-7285-4a1b-aa81-d5f909471c3f")
+	)
+	(junction
 		(at 156.21 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9170,7 +9350,7 @@
 		(uuid "fd81de63-ade0-4772-9cc0-c2eee8966343")
 	)
 	(junction
-		(at 68.58 40.64)
+		(at 90.17 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe840176-d39c-4d40-9742-ed408d32c3e6")
@@ -9349,7 +9529,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 45.72) (xy 60.96 45.72)
+			(xy 81.28 45.72) (xy 82.55 45.72)
 		)
 		(stroke
 			(width 0)
@@ -10019,7 +10199,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 40.64) (xy 68.58 40.64)
+			(xy 81.28 40.64) (xy 90.17 40.64)
 		)
 		(stroke
 			(width 0)
@@ -10036,16 +10216,6 @@
 			(type default)
 		)
 		(uuid "3ffe8314-e892-4927-b77b-0d9016ba3dfb")
-	)
-	(wire
-		(pts
-			(xy 91.44 151.13) (xy 90.17 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40220c59-e2b2-4e08-8d3b-46979dfdae34")
 	)
 	(wire
 		(pts
@@ -10169,7 +10339,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 40.64) (xy 68.58 41.91)
+			(xy 90.17 40.64) (xy 90.17 41.91)
 		)
 		(stroke
 			(width 0)
@@ -10249,7 +10419,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 151.13) (xy 91.44 152.4)
+			(xy 90.17 151.13) (xy 90.17 152.4)
 		)
 		(stroke
 			(width 0)
@@ -10649,7 +10819,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 39.37) (xy 68.58 40.64)
+			(xy 90.17 39.37) (xy 90.17 40.64)
 		)
 		(stroke
 			(width 0)
@@ -10659,7 +10829,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 152.4) (xy 91.44 152.4)
+			(xy 88.9 152.4) (xy 90.17 152.4)
 		)
 		(stroke
 			(width 0)
@@ -10719,7 +10889,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 46.99) (xy 60.96 45.72)
+			(xy 82.55 46.99) (xy 82.55 45.72)
 		)
 		(stroke
 			(width 0)
@@ -10739,7 +10909,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 43.18) (xy 64.77 43.18)
+			(xy 81.28 43.18) (xy 86.36 43.18)
 		)
 		(stroke
 			(width 0)
@@ -11689,6 +11859,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 40.64) (xy 44.45 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd85d069-8b28-4c96-8a5c-ddffd2036d64")
+	)
+	(wire
+		(pts
 			(xy 44.45 130.81) (xy 44.45 132.08)
 		)
 		(stroke
@@ -11826,6 +12006,16 @@
 			(type default)
 		)
 		(uuid "c28a6d81-7728-483b-a05b-f9e8615643ce")
+	)
+	(wire
+		(pts
+			(xy 43.18 35.56) (xy 44.45 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b2d426-d212-4a9b-8e67-5aebfc39a7be")
 	)
 	(wire
 		(pts
@@ -12189,7 +12379,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 52.07) (xy 64.77 53.34)
+			(xy 86.36 52.07) (xy 86.36 53.34)
 		)
 		(stroke
 			(width 0)
@@ -12289,7 +12479,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 49.53) (xy 68.58 50.8)
+			(xy 90.17 49.53) (xy 90.17 50.8)
 		)
 		(stroke
 			(width 0)
@@ -12339,7 +12529,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 43.18) (xy 64.77 44.45)
+			(xy 86.36 43.18) (xy 86.36 44.45)
 		)
 		(stroke
 			(width 0)
@@ -12828,7 +13018,7 @@
 		(uuid "39b8e941-eb40-46f8-84f0-8420e0d968e9")
 	)
 	(label "RGB2"
-		(at 64.77 43.18 180)
+		(at 86.36 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13404,7 +13594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04cf0f84-242f-4f0a-a2f4-9699534b507e")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 227.33 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -13466,7 +13656,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -13483,7 +13673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "056ca737-22a5-4255-bfb4-98e1f5afd540")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 97.79 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13544,7 +13734,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -13561,7 +13751,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "056fab89-cbf6-4e8c-a53f-ee3c7029ab19")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 96.52 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -13622,7 +13812,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -13889,7 +14079,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09eb030c-5ff6-4e6d-aa7b-cfe8320ef84a")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 65.786 128.016 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13998,7 +14188,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -14016,7 +14206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a86cbe9-9c8f-4dcb-949b-2c3e40a91e1f")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 144.78 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -14077,7 +14267,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -14505,7 +14695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cdc51b8-9d50-40f0-973b-72e5bbe1876f")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 63.754 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14612,7 +14802,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -14629,7 +14819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10437157-bc7e-4853-a301-79573c545221")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 163.83 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -14689,7 +14879,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -14707,7 +14897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10b68fa1-ed64-4fec-83e8-ada9ba73774e")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 44.45 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -14768,7 +14958,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14785,7 +14975,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11045cd4-8b31-43ee-9f18-8442f7f6ed54")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 143.51 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -14846,7 +15036,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -15079,7 +15269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2403a256-a09a-49a5-ae5f-321da8629039")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 100.33 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -15140,7 +15330,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -15524,7 +15714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29027cb7-2059-4bf9-b95f-60cef1ff0443")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 34.29 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15585,7 +15775,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -15603,7 +15793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ac59068-cca9-4e54-b74f-cccbc5b54d38")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR020"
 			(at 69.85 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -15663,7 +15853,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR024")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -15681,7 +15871,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b721b2b-6faa-4299-874a-19dd530ed050")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 273.05 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -15741,7 +15931,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -15759,7 +15949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cc5d687-c5e4-4225-bfe6-2a23bc7daa03")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 168.91 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -15820,7 +16010,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -15838,7 +16028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d34ead9-30fc-4a2f-9aa6-0e02c557cc57")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 65.024 66.548 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15946,7 +16136,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -15964,7 +16154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e9b37b6-d64d-4322-8e20-baf1339ee090")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 256.54 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -16025,7 +16215,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -16168,7 +16358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32e0c98a-4251-42ef-abc7-b1ba0439ecfd")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 163.83 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -16228,7 +16418,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -16246,7 +16436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "332e3fdb-aae1-4743-b7f0-0a918b7bed0d")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 82.55 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16354,7 +16544,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -16371,7 +16561,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3437ae7b-70e6-46fb-b7c5-9a97cdc72218")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 156.21 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -16432,7 +16622,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -16528,7 +16718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "372d5136-a9e2-43e6-9855-bb7194c00011")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 196.85 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16590,7 +16780,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -16855,7 +17045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d6da031-89b9-4f8a-969a-4a7e96dcd675")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 142.24 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -16916,7 +17106,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -16934,7 +17124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d9e42e7-695a-44fd-b214-80a9d38700b3")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR066"
 			(at 270.51 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -16994,7 +17184,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR065")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -17012,7 +17202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f8bc1f9-a063-42a8-9917-89f0d0bf328b")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR062"
 			(at 234.95 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -17072,7 +17262,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR061")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -17089,7 +17279,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42c12d44-ef66-4d3e-a064-0d1f19c3d186")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR01"
 			(at 22.86 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -17149,7 +17339,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR070")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -17291,7 +17481,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46975d65-41b1-4740-a017-b048cfca17de")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 60.452 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17399,7 +17589,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -17532,7 +17722,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 53.34 0)
+		(at 86.36 53.34 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17543,8 +17733,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b129650-61f6-4e2a-acbb-cbd0faf45274")
-		(property "Reference" "#PWR020"
-			(at 64.77 59.69 0)
+		(property "Reference" "#PWR027"
+			(at 86.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17555,7 +17745,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 58.42 0)
+			(at 86.36 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17566,7 +17756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 53.34 0)
+			(at 86.36 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17577,7 +17767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 53.34 0)
+			(at 86.36 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17588,7 +17778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 53.34 0)
+			(at 86.36 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17604,7 +17794,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR020")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -17621,7 +17811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c6bd57c-6df0-48d5-99ac-e77271417f77")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 257.048 141.224 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17740,7 +17930,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -17882,7 +18072,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d748882-c49c-4150-b9f0-a013cd5ab598")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 114.3 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -17942,7 +18132,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -17959,7 +18149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d7eb9fb-f38b-45a2-afc0-0930932b6fa9")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 40.64 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -18019,7 +18209,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -18491,7 +18681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5538d37f-9aad-46f7-9148-c651adcf1455")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 92.71 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -18552,7 +18742,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -18569,7 +18759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57dc36ff-c272-4a6f-ba28-320e5f4640a8")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 80.772 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18677,7 +18867,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -18836,7 +19026,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b0ccdd7-68d8-4e34-ae7e-da3d1049bf49")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 175.26 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -18898,7 +19088,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -18915,7 +19105,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b2b79df-d1a1-4f45-9967-a20d91626ca2")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 168.91 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -18976,7 +19166,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -19102,6 +19292,132 @@
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 44.45 38.1 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e0ccce6-f446-4fd4-96da-207b9748a068")
+		(property "Reference" "D2"
+			(at 45.466 35.306 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 40.64 37.7825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 44.45 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 44.45 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Microdiode Semiconductor (MDD)"
+			(at 44.45 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SS54"
+			(at 44.45 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 44.45 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C22452"
+			(at 44.45 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "da508cc0-a1a7-4b54-8b9f-e079ef4e08af")
+		)
+		(pin "1"
+			(uuid "813f01dd-ee67-428a-9d89-b20ad59d45ca")
+		)
+		(instances
+			(project "cnfx-cb-esp32s3-1"
+				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -19446,7 +19762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65869706-bae2-4224-a27e-83f3754b44ab")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR025"
 			(at 83.82 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -19506,7 +19822,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR029")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -19524,7 +19840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "681cd1ef-56b4-46b9-9d64-d154786d4aa8")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 144.78 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -19585,7 +19901,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -19745,7 +20061,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "693d9e0c-3711-4fc8-828b-5e95cb55f1e3")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 109.22 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -19806,7 +20122,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -20151,7 +20467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e1db537-4870-4adb-b48f-ec5add6b2fc3")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 91.44 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -20212,7 +20528,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -20355,7 +20671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ee582b8-fa28-454a-94cd-3d55fdc817bd")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 40.64 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -20416,7 +20732,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -20433,7 +20749,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7070f075-a26c-415a-a94c-0260e129d551")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 151.13 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -20493,7 +20809,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -21092,7 +21408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74f973b8-c867-4595-b459-6aa690359f58")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR028"
 			(at 86.36 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -21153,7 +21469,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR030")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -21171,7 +21487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7506e464-bade-4fcc-9b15-4f3ad6c089ed")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 57.15 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -21232,7 +21548,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -21451,7 +21767,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "795bd69a-0dd7-4405-b9be-2d2d461c4662")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR061"
 			(at 227.33 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -21513,7 +21829,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR060")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -21531,7 +21847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b050fd6-b910-4862-a688-6f7e21d136ee")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 54.61 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -21592,7 +21908,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -21609,7 +21925,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7fd4a3b3-91cc-44ec-8e76-0820f9cfe6ed")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 214.63 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -21671,7 +21987,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -22139,7 +22455,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88452fcf-8110-404c-8a9f-c2ee6863e23c")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 214.63 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -22199,7 +22515,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR057")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -22354,7 +22670,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 50.8 0)
+		(at 90.17 50.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -22365,8 +22681,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a982dbd-7e42-4aa6-a0a6-9bef69af405e")
-		(property "Reference" "#PWR022"
-			(at 68.58 57.15 0)
+		(property "Reference" "#PWR030"
+			(at 90.17 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22377,7 +22693,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 55.88 0)
+			(at 90.17 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22388,7 +22704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 50.8 0)
+			(at 90.17 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22399,7 +22715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 50.8 0)
+			(at 90.17 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22410,7 +22726,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 50.8 0)
+			(at 90.17 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22426,7 +22742,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR022")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -22443,7 +22759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8aa63635-01c8-4242-8511-6150a5171dfa")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 212.09 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -22503,7 +22819,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -22803,7 +23119,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8de6ad87-303f-4695-a262-b49045082bc7")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 95.504 121.412 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22918,7 +23234,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -22936,7 +23252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e978930-d9f2-401a-b01e-cbd522933e51")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 43.18 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -22997,7 +23313,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -23005,7 +23321,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 46.99 0)
+		(at 82.55 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23015,8 +23331,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f27bc7c-9ae7-4200-ba8f-af2699ea970b")
-		(property "Reference" "#PWR017"
-			(at 60.96 53.34 0)
+		(property "Reference" "#PWR024"
+			(at 82.55 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23027,7 +23343,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 52.07 0)
+			(at 82.55 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23038,7 +23354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 46.99 0)
+			(at 82.55 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23049,7 +23365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 46.99 0)
+			(at 82.55 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23060,7 +23376,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 46.99 0)
+			(at 82.55 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23076,7 +23392,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR017")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -23093,7 +23409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90376e90-102b-449e-9f98-6fe3dc6ff68b")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 161.29 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -23154,7 +23470,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -23762,7 +24078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98a72326-1618-4ec6-8cb1-b6d9386ce6c1")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 92.71 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -23823,7 +24139,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -23840,7 +24156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a1fec9a-ebde-4a0c-8db3-282c2faf291b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 30.48 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -23900,7 +24216,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -24040,7 +24356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c48d595-bf09-4849-b704-543e65887de9")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR023"
 			(at 80.01 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -24100,7 +24416,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR026")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -24118,7 +24434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e18fa0a-0b3a-4ab8-8b6b-78c92a0a1fc7")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR026"
 			(at 83.82 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -24179,7 +24495,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR028")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -24303,7 +24619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a357c5b0-30ab-4cb4-8c53-825094df1ecf")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 29.21 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -24364,7 +24680,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -24505,7 +24821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a70c39ad-bb31-44d8-b77a-551cbdf59095")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 276.86 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -24565,7 +24881,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -24583,7 +24899,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a718e581-0e11-437d-84bb-0e9fc5017106")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 48.26 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -24645,7 +24961,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -24663,7 +24979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7381624-4eb7-4c9e-881d-499220965705")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 156.21 177.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24793,7 +25109,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -25185,7 +25501,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa591de7-0542-4b64-9f89-fed74da4fa1c")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 49.53 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -25246,7 +25562,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -25264,7 +25580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abda482a-83c1-44db-9d94-29c815effb76")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR022"
 			(at 76.2 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -25325,7 +25641,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR025")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -25717,7 +26033,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2a7c61a-51c0-4861-bc65-8b080e94ed85")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 274.32 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -25777,7 +26093,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -25795,7 +26111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4f5d44d-29f6-43cf-9bb0-04a7125aac9f")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 156.21 158.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25925,7 +26241,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -26069,7 +26385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b70f7d0e-175d-4ccb-bfb1-6040bd91ddf1")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 39.37 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -26130,7 +26446,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -26226,7 +26542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c28983fa-cc99-4485-9608-7247e04922c0")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 58.42 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -26287,7 +26603,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -26304,7 +26620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c39cbfac-bc40-4273-a512-0c4f7f1f748b")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 102.87 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -26365,7 +26681,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -26498,7 +26814,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 54.61 43.18 180)
+		(at 76.2 43.18 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26508,8 +26824,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbf69a4a-850c-40d9-8a43-1b31408e2852")
-		(property "Reference" "J3"
-			(at 54.61 36.83 0)
+		(property "Reference" "J5"
+			(at 76.2 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26519,7 +26835,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 52.07 41.9101 0)
+			(at 73.66 41.9101 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26531,7 +26847,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
-			(at 54.61 43.18 0)
+			(at 76.2 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26542,7 +26858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 43.18 0)
+			(at 76.2 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26553,7 +26869,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 54.61 43.18 0)
+			(at 76.2 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26564,7 +26880,7 @@
 			)
 		)
 		(property "Basic" "Z"
-			(at 54.61 43.18 0)
+			(at 76.2 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26575,7 +26891,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C157929"
-			(at 54.61 43.18 0)
+			(at 76.2 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26586,7 +26902,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 54.61 43.18 0)
+			(at 76.2 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26597,7 +26913,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "S3B-PH-K-S(LF)(SN)"
-			(at 54.61 43.18 0)
+			(at 76.2 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26619,7 +26935,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -26761,7 +27077,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdcb929f-c760-48ed-8881-24eb07483c4e")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 259.08 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -26822,7 +27138,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -27416,7 +27732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5f40b9a-9e31-486a-80b7-e5adde396057")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 113.03 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -27477,7 +27793,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -27619,7 +27935,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9635168-e30e-4261-84cc-2d3917e6de91")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 43.18 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -27679,7 +27995,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -27697,7 +28013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd651532-bb2c-4a3e-b8eb-f82848f54c4e")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR032"
 			(at 91.44 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -27757,7 +28073,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR027")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -27775,7 +28091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de3a2a98-7c28-43a5-9f45-9f38fe34ff2c")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 89.662 160.528 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27905,7 +28221,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -28251,7 +28567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2a8659b-a255-4027-a333-f7d8a45f1909")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 56.896 125.476 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28360,7 +28676,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -28501,7 +28817,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e52baead-d676-47c8-a50a-8232aee240c4")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 175.26 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -28561,7 +28877,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -28578,7 +28894,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed44d728-d67b-468e-9d84-1b76bfba5d0e")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 60.706 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28687,7 +29003,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -28695,7 +29011,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 68.58 45.72 0)
+		(at 90.17 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28704,8 +29020,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f337b570-e797-4feb-b5c1-88f4c7dc4b7b")
-		(property "Reference" "C5"
-			(at 72.39 44.958 0)
+		(property "Reference" "C8"
+			(at 93.98 44.958 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28716,7 +29032,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 72.39 47.498 0)
+			(at 93.98 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28727,7 +29043,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 69.5452 49.53 0)
+			(at 91.1352 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28738,7 +29054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 45.72 0)
+			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28749,7 +29065,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 68.58 45.72 0)
+			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28760,7 +29076,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 68.58 45.72 0)
+			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28771,7 +29087,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C52923"
-			(at 68.58 45.72 0)
+			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28782,7 +29098,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 68.58 45.72 0)
+			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28793,7 +29109,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
-			(at 68.58 45.72 0)
+			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28812,7 +29128,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -28902,7 +29218,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 68.58 39.37 0)
+		(at 90.17 39.37 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -28912,8 +29228,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f48d95c0-d68b-415b-ba40-1e08b3d8fef9")
-		(property "Reference" "#PWR021"
-			(at 68.58 43.18 0)
+		(property "Reference" "#PWR029"
+			(at 90.17 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28924,7 +29240,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 68.326 35.56 0)
+			(at 89.916 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28934,7 +29250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 39.37 0)
+			(at 90.17 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28945,7 +29261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 39.37 0)
+			(at 90.17 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28956,7 +29272,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 68.58 39.37 0)
+			(at 90.17 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28972,7 +29288,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR021")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -29273,7 +29589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faa806dd-413d-48ff-9811-360d16702566")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 273.05 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -29334,7 +29650,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -29480,7 +29796,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbd9a9f7-be3e-46bd-afad-1c665c7d942b")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR063"
 			(at 234.95 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -29542,7 +29858,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR062")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -29560,7 +29876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc2e1d74-0446-460e-8f24-5aff0faaedc4")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR021"
 			(at 69.85 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -29621,7 +29937,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR023")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -30087,7 +30403,7 @@
 	)
 	(symbol
 		(lib_id "GLCS:H5VU10U")
-		(at 64.77 48.26 270)
+		(at 86.36 48.26 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30096,8 +30412,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe2a07e7-272f-4205-9379-308314027fc9")
-		(property "Reference" "D6"
-			(at 59.69 44.196 90)
+		(property "Reference" "D8"
+			(at 81.28 44.196 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30108,7 +30424,7 @@
 			)
 		)
 		(property "Value" "H5VU10U"
-			(at 67.31 49.5299 90)
+			(at 88.9 49.5299 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30120,7 +30436,7 @@
 			)
 		)
 		(property "Footprint" "GLCS:Diode_DFN1006"
-			(at 60.325 48.26 0)
+			(at 81.915 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30131,7 +30447,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
-			(at 64.77 48.26 0)
+			(at 86.36 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30142,7 +30458,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 64.77 48.26 0)
+			(at 86.36 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30153,7 +30469,7 @@
 			)
 		)
 		(property "Basic" "E"
-			(at 64.77 48.26 90)
+			(at 86.36 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30164,7 +30480,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C22395519"
-			(at 64.77 48.26 90)
+			(at 86.36 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30175,7 +30491,7 @@
 			)
 		)
 		(property "Manufacturer" "hongjiacheng"
-			(at 64.77 48.26 90)
+			(at 86.36 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30186,7 +30502,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "H5VU10U"
-			(at 64.77 48.26 90)
+			(at 86.36 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30205,7 +30521,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "D6")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -30223,7 +30539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fffc6a14-e9fa-4e10-99f1-2bf49e903cbb")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 30.48 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -30284,7 +30600,7 @@
 		(instances
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
