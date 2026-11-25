@@ -8299,259 +8299,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW1"
-				(at -2.032 5.334 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Button_Switch_SMD:SW_SPDT_Shouhan_MSK12C02"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Basic" "X"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLCPCB Part #" "C431540"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "SHOU HAN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part Number" "MSK12C02"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -9340,6 +9087,18 @@
 		)
 	)
 	(rectangle
+		(start 96.52 165.1)
+		(end 124.46 193.04)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0d4455ec-dc0b-474f-a862-69f1e647641e")
+	)
+	(rectangle
 		(start 144.145 97.155)
 		(end 164.465 115.57)
 		(stroke
@@ -9795,12 +9554,6 @@
 		(uuid "1c62520b-7d39-44f1-917d-0782f95e1cb7")
 	)
 	(junction
-		(at 97.79 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c680591-b82d-459d-9db1-554c130c8287")
-	)
-	(junction
 		(at 63.5 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9831,7 +9584,7 @@
 		(uuid "30b2f63a-3821-4822-9fa5-ac0e3ba59203")
 	)
 	(junction
-		(at 97.79 181.61)
+		(at 99.06 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30e92685-8f97-4651-aab2-664f549b35d9")
@@ -9853,12 +9606,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b485fb2-2429-4276-bff2-1f604cee0332")
-	)
-	(junction
-		(at 97.79 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d1ecd19-7ad4-4238-b514-0bf23e42121a")
 	)
 	(junction
 		(at 175.26 35.56)
@@ -9945,7 +9692,13 @@
 		(uuid "7414171e-0700-4bb3-8eea-47043d2ec2c9")
 	)
 	(junction
-		(at 97.79 186.69)
+		(at 99.06 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7739c25c-3e48-4fe4-b925-b7efdbe4cd8d")
+	)
+	(junction
+		(at 99.06 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a9bb198-ced1-4a25-9a6c-bb30e9e832b6")
@@ -10003,12 +9756,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9785b1e7-8b73-4ff8-889b-5944cfd41a4f")
-	)
-	(junction
-		(at 97.79 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bf52657-f750-4d2e-9d98-da4fc254117d")
 	)
 	(junction
 		(at 66.04 35.56)
@@ -10117,18 +9864,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c34b856d-24f8-4239-a393-f3f8e9eec75b")
-	)
-	(junction
-		(at 97.79 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3b2dbdc-07b9-4018-b8f5-4a9cf0198af5")
-	)
-	(junction
-		(at 97.79 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3ef24d1-7a28-4c68-9eb1-b9e33ce73571")
 	)
 	(junction
 		(at 168.91 49.53)
@@ -10670,7 +10405,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 181.61) (xy 97.79 186.69)
+			(xy 99.06 180.34) (xy 99.06 185.42)
 		)
 		(stroke
 			(width 0)
@@ -10740,16 +10475,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 171.45) (xy 97.79 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20ca82a6-f9e2-460c-9015-c0997a779237")
-	)
-	(wire
-		(pts
 			(xy 137.16 125.73) (xy 129.54 125.73)
 		)
 		(stroke
@@ -10757,6 +10482,16 @@
 			(type default)
 		)
 		(uuid "20e77ec9-8b88-4470-91b4-5b803789b7de")
+	)
+	(wire
+		(pts
+			(xy 99.06 170.18) (xy 99.06 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21920afa-d184-4d57-98ff-1eb24c955267")
 	)
 	(wire
 		(pts
@@ -10880,17 +10615,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 149.86) (xy 97.79 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a2487aa-fc24-48e0-b089-f8091b32dece")
-	)
-	(wire
-		(pts
-			(xy 97.79 186.69) (xy 100.33 186.69)
+			(xy 99.06 185.42) (xy 101.6 185.42)
 		)
 		(stroke
 			(width 0)
@@ -11100,16 +10825,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 166.37) (xy 97.79 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "384d5b3f-f085-4cc8-999b-9cf6a43665bc")
-	)
-	(wire
-		(pts
 			(xy 177.8 49.53) (xy 177.8 60.96)
 		)
 		(stroke
@@ -11120,7 +10835,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 186.69) (xy 119.38 186.69)
+			(xy 111.76 185.42) (xy 120.65 185.42)
 		)
 		(stroke
 			(width 0)
@@ -11130,7 +10845,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 181.61) (xy 119.38 181.61)
+			(xy 111.76 180.34) (xy 120.65 180.34)
 		)
 		(stroke
 			(width 0)
@@ -11140,7 +10855,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 161.29) (xy 97.79 161.29)
+			(xy 101.6 170.18) (xy 99.06 170.18)
 		)
 		(stroke
 			(width 0)
@@ -11200,16 +10915,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 154.94) (xy 97.79 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c59279b-4e59-40e2-b43b-89e583064c07")
-	)
-	(wire
-		(pts
 			(xy 196.85 43.18) (xy 196.85 41.91)
 		)
 		(stroke
@@ -11220,7 +10925,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 186.69) (xy 97.79 189.23)
+			(xy 99.06 185.42) (xy 99.06 187.96)
 		)
 		(stroke
 			(width 0)
@@ -11640,7 +11345,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 176.53) (xy 97.79 181.61)
+			(xy 99.06 175.26) (xy 99.06 180.34)
 		)
 		(stroke
 			(width 0)
@@ -12150,16 +11855,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 154.94) (xy 97.79 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76344573-16f8-44d1-a650-5cc8e0f52b4d")
-	)
-	(wire
-		(pts
 			(xy 175.26 25.4) (xy 175.26 26.67)
 		)
 		(stroke
@@ -12370,16 +12065,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 152.4) (xy 100.33 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8847fa5c-ccd2-4ce9-82a2-aea8d78fef71")
-	)
-	(wire
-		(pts
 			(xy 80.01 43.18) (xy 81.28 43.18)
 		)
 		(stroke
@@ -12437,16 +12122,6 @@
 			(type default)
 		)
 		(uuid "8b5ffb10-2f2a-4489-98ed-1a36a22cfc08")
-	)
-	(wire
-		(pts
-			(xy 110.49 166.37) (xy 119.38 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b7a23fa-095e-49a3-84d3-2686e15189b3")
 	)
 	(wire
 		(pts
@@ -12980,7 +12655,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 161.29) (xy 119.38 161.29)
+			(xy 111.76 170.18) (xy 120.65 170.18)
 		)
 		(stroke
 			(width 0)
@@ -13080,16 +12755,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 152.4) (xy 119.38 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2a57b35-b6bd-47de-a03b-8dbfc9e13c1c")
-	)
-	(wire
-		(pts
 			(xy 151.13 68.58) (xy 157.48 68.58)
 		)
 		(stroke
@@ -13180,7 +12845,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 176.53) (xy 119.38 176.53)
+			(xy 111.76 175.26) (xy 120.65 175.26)
 		)
 		(stroke
 			(width 0)
@@ -13380,7 +13045,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 181.61) (xy 100.33 181.61)
+			(xy 99.06 180.34) (xy 101.6 180.34)
 		)
 		(stroke
 			(width 0)
@@ -13447,36 +13112,6 @@
 			(type default)
 		)
 		(uuid "c4390f7e-5d6b-4d01-9634-b2eff478f561")
-	)
-	(wire
-		(pts
-			(xy 110.49 171.45) (xy 119.38 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4761be1-819d-4434-997d-eb52d46e2a6c")
-	)
-	(wire
-		(pts
-			(xy 97.79 171.45) (xy 97.79 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4fc6601-dac5-4080-9cf8-5fe4fbc2ba7e")
-	)
-	(wire
-		(pts
-			(xy 100.33 166.37) (xy 97.79 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5472930-2109-4ef5-b1db-24e611d89632")
 	)
 	(wire
 		(pts
@@ -13557,16 +13192,6 @@
 			(type default)
 		)
 		(uuid "c996754a-cb62-4394-8614-ffb8f6ad89a4")
-	)
-	(wire
-		(pts
-			(xy 100.33 149.86) (xy 97.79 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc5e260f-bf72-4072-a11f-67be9d4c4077")
 	)
 	(wire
 		(pts
@@ -13840,7 +13465,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 176.53) (xy 97.79 176.53)
+			(xy 101.6 175.26) (xy 99.06 175.26)
 		)
 		(stroke
 			(width 0)
@@ -14020,16 +13645,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 154.94) (xy 97.79 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec433e2d-dc97-4e7d-a097-cdff6a175ff3")
-	)
-	(wire
-		(pts
 			(xy 66.04 48.26) (xy 66.04 45.72)
 		)
 		(stroke
@@ -14117,16 +13732,6 @@
 			(type default)
 		)
 		(uuid "f1f541b0-d787-4629-b2ff-e9d76b74503c")
-	)
-	(wire
-		(pts
-			(xy 97.79 161.29) (xy 97.79 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f36a9e78-30ec-4c2d-ad54-a340f4c00802")
 	)
 	(wire
 		(pts
@@ -14519,7 +14124,7 @@
 		(uuid "365a8059-13ac-4220-a26a-eef08729b72a")
 	)
 	(label "BOOT"
-		(at 119.38 181.61 180)
+		(at 120.65 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14548,16 +14153,6 @@
 		)
 		(uuid "3ae4da42-1d8a-4fc9-bd8b-c58d961e2e4a")
 	)
-	(label "SW_A"
-		(at 119.38 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3f839475-c46f-47e6-96d8-bc97bbdcc855")
-	)
 	(label "GPIO40"
 		(at 172.72 93.98 0)
 		(effects
@@ -14579,7 +14174,7 @@
 		(uuid "4a04ae98-5a38-4600-b300-1efcad730b96")
 	)
 	(label "EMS"
-		(at 119.38 176.53 180)
+		(at 120.65 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14609,7 +14204,7 @@
 		(uuid "52c3b952-2c90-4e47-b008-f944cdf28bd7")
 	)
 	(label "CHIP_PU"
-		(at 119.38 186.69 180)
+		(at 120.65 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14758,18 +14353,8 @@
 		)
 		(uuid "90978671-675c-48d5-9888-91f8e235f7e0")
 	)
-	(label "BTN_B"
-		(at 119.38 166.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "99d78349-e684-4e7e-8b32-8863f55af956")
-	)
 	(label "BTN_A"
-		(at 119.38 161.29 180)
+		(at 120.65 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14887,16 +14472,6 @@
 			(justify left bottom)
 		)
 		(uuid "c1cdce6b-360a-4a27-87ab-7e08d260c853")
-	)
-	(label "BTN_C"
-		(at 119.38 171.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c2b17310-1b5b-4a9e-892c-5e6e90cde5b5")
 	)
 	(label "D+"
 		(at 68.58 123.19 180)
@@ -16712,83 +16287,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 97.79 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "18418820-9a7f-4d89-9330-4bf839570be2")
-		(property "Reference" "#PWR032"
-			(at 97.79 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 101.092 146.558 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 97.79 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f78b1618-dfcd-423e-8949-bf1c8dea2241")
-		)
-		(instances
-			(project "cnfx-cb-esp32s3-1"
-				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 148.59 173.99 0)
 		(unit 1)
@@ -17005,7 +16503,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 189.23 0)
+		(at 99.06 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17016,7 +16514,7 @@
 		(fields_autoplaced yes)
 		(uuid "2403a256-a09a-49a5-ae5f-321da8629039")
 		(property "Reference" "#PWR033"
-			(at 97.79 195.58 0)
+			(at 99.06 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17027,7 +16525,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 194.31 0)
+			(at 99.06 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17038,7 +16536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 189.23 0)
+			(at 99.06 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17049,7 +16547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 189.23 0)
+			(at 99.06 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17060,7 +16558,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 189.23 0)
+			(at 99.06 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22086,7 +21584,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 105.41 181.61 0)
+		(at 106.68 180.34 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -22097,7 +21595,7 @@
 		(dnp no)
 		(uuid "6edc5ff8-e586-4c05-90b6-a0127cd9664d")
 		(property "Reference" "SW6"
-			(at 102.108 178.816 0)
+			(at 103.378 177.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22107,7 +21605,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 105.41 176.53 0)
+			(at 106.68 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22118,7 +21616,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
-			(at 105.41 176.53 0)
+			(at 106.68 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22129,7 +21627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 176.53 0)
+			(at 106.68 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22140,7 +21638,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 105.41 181.61 0)
+			(at 106.68 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22151,7 +21649,7 @@
 			)
 		)
 		(property "Manufacturer" "OMRON"
-			(at 105.41 181.61 0)
+			(at 106.68 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22162,7 +21660,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "B3F-4055"
-			(at 105.41 181.61 0)
+			(at 106.68 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22173,7 +21671,7 @@
 			)
 		)
 		(property "Basic" "Z"
-			(at 105.41 181.61 0)
+			(at 106.68 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22184,7 +21682,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C84931"
-			(at 105.41 181.61 0)
+			(at 106.68 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27975,131 +27473,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 105.41 171.45 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b9e82068-3bdd-4fad-882c-82b65d1f6b5e")
-		(property "Reference" "SW4"
-			(at 102.108 168.656 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 105.41 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
-			(at 105.41 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 105.41 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "OMRON"
-			(at 105.41 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "B3F-4055"
-			(at 105.41 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "Z"
-			(at 105.41 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C84931"
-			(at 105.41 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c539c1c3-19c8-4681-8ba7-bf00544e5878")
-		)
-		(pin "1"
-			(uuid "1c1babe4-4f7d-45fc-ad4f-6156841420cb")
-		)
-		(instances
-			(project "cnfx-cb-esp32s3-1"
-				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 58.42 116.84 0)
 		(mirror y)
@@ -28383,7 +27756,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 105.41 161.29 0)
+		(at 106.68 170.18 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -28394,7 +27767,7 @@
 		(dnp no)
 		(uuid "ccd908e9-d8d4-4861-aae5-23057bf8a696")
 		(property "Reference" "SW2"
-			(at 102.108 158.496 0)
+			(at 103.378 167.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28404,7 +27777,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 105.41 156.21 0)
+			(at 106.68 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28415,7 +27788,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
-			(at 105.41 156.21 0)
+			(at 106.68 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28426,7 +27799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 156.21 0)
+			(at 106.68 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28437,7 +27810,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 105.41 161.29 0)
+			(at 106.68 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28448,7 +27821,7 @@
 			)
 		)
 		(property "Manufacturer" "OMRON"
-			(at 105.41 161.29 0)
+			(at 106.68 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28459,7 +27832,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "B3F-4055"
-			(at 105.41 161.29 0)
+			(at 106.68 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28470,7 +27843,7 @@
 			)
 		)
 		(property "Basic" "Z"
-			(at 105.41 161.29 0)
+			(at 106.68 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28481,7 +27854,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C84931"
-			(at 105.41 161.29 0)
+			(at 106.68 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28579,137 +27952,6 @@
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 105.41 152.4 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cf9b4209-a35d-4db2-889c-cb819b4265bd")
-		(property "Reference" "SW1"
-			(at 107.442 147.066 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 105.41 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_Shouhan_MSK12C02"
-			(at 105.41 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 105.41 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "X"
-			(at 105.41 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C431540"
-			(at 105.41 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SHOU HAN"
-			(at 105.41 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "MSK12C02"
-			(at 105.41 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8179629b-66c8-4bd3-8693-50e89d1a02d3")
-		)
-		(pin "2"
-			(uuid "49ce4ba3-ae6f-4cc5-85e2-7ec468fc7693")
-		)
-		(pin "3"
-			(uuid "b5885807-26c8-47d6-b647-9183d5224ab2")
-		)
-		(pin "SH"
-			(uuid "f218279a-628f-4798-aabe-4d24b88cf616")
-		)
-		(instances
-			(project "cnfx-cb-esp32s3-1"
-				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -28921,7 +28163,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 105.41 176.53 0)
+		(at 106.68 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28931,7 +28173,7 @@
 		(dnp no)
 		(uuid "d27fef15-eae9-4515-91f2-44106ed0be3a")
 		(property "Reference" "SW5"
-			(at 101.346 173.736 0)
+			(at 102.616 172.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28941,7 +28183,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 105.41 171.45 0)
+			(at 106.68 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28952,7 +28194,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 105.41 171.45 0)
+			(at 106.68 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28963,7 +28205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 171.45 0)
+			(at 106.68 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28974,7 +28216,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 105.41 176.53 0)
+			(at 106.68 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28985,7 +28227,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 105.41 176.53 0)
+			(at 106.68 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28996,7 +28238,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "B2B-XH-A(LF)(SN)"
-			(at 105.41 176.53 0)
+			(at 106.68 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29007,7 +28249,7 @@
 			)
 		)
 		(property "Basic" "Z"
-			(at 105.41 176.53 0)
+			(at 106.68 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29018,7 +28260,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C158012"
-			(at 105.41 176.53 0)
+			(at 106.68 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29901,131 +29143,6 @@
 			(project "cnfx-cb-esp32s3-1"
 				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 105.41 166.37 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "deb1c484-cbb1-4c2e-81f5-000e1a60b51d")
-		(property "Reference" "SW3"
-			(at 102.108 163.576 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 105.41 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
-			(at 105.41 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 105.41 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "OMRON"
-			(at 105.41 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "B3F-4055"
-			(at 105.41 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "Z"
-			(at 105.41 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C84931"
-			(at 105.41 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "30fa6764-3aa9-47f6-bca9-947c50561254")
-		)
-		(pin "1"
-			(uuid "ec073050-b30a-49b4-99bf-d87451aa947f")
-		)
-		(instances
-			(project "cnfx-cb-esp32s3-1"
-				(path "/035cbe45-f384-4ec9-85aa-5a4704145584"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -31555,7 +30672,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 105.41 186.69 0)
+		(at 106.68 185.42 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -31566,7 +30683,7 @@
 		(dnp no)
 		(uuid "fcc3b23e-c351-46df-aeb1-19d5f0e02834")
 		(property "Reference" "SW7"
-			(at 102.108 183.896 0)
+			(at 103.378 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31576,7 +30693,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 105.41 181.61 0)
+			(at 106.68 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31587,7 +30704,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
-			(at 105.41 181.61 0)
+			(at 106.68 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31598,7 +30715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 181.61 0)
+			(at 106.68 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31609,7 +30726,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 105.41 186.69 0)
+			(at 106.68 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31620,7 +30737,7 @@
 			)
 		)
 		(property "Manufacturer" "OMRON"
-			(at 105.41 186.69 0)
+			(at 106.68 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31631,7 +30748,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "B3F-4055"
-			(at 105.41 186.69 0)
+			(at 106.68 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31642,7 +30759,7 @@
 			)
 		)
 		(property "Basic" "Z"
-			(at 105.41 186.69 0)
+			(at 106.68 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31653,7 +30770,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C84931"
-			(at 105.41 186.69 0)
+			(at 106.68 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
