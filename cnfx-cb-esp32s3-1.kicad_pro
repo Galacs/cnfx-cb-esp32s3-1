@@ -234,7 +234,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "same_local_global_power": "warning",
@@ -264,7 +264,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -280,6 +280,64 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "CAN",
+        "pcb_color": "rgb(194, 194, 0)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgb(132, 132, 132)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "PWM",
+        "pcb_color": "rgb(0, 194, 194)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "PWR",
+        "pcb_color": "rgb(255, 3, 17)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "RF",
+        "pcb_color": "rgb(194, 194, 0)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "UART",
+        "pcb_color": "rgb(22, 5, 255)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.3,
+        "name": "USB",
+        "pcb_color": "rgb(34, 255, 22)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "XTAL",
+        "pcb_color": "rgb(255, 0, 255)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -287,7 +345,44 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+*"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/U0*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/ESP_D*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/D*"
+      },
+      {
+        "netclass": "PWM",
+        "pattern": "/BUZZER"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/RF*"
+      },
+      {
+        "netclass": "XTAL",
+        "pattern": "/XTAL*"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "/CAN*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
