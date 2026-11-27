@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "CNFX CB ESP32S3 1")
+		(date "2026-11-27")
+		(rev "01")
+		(company "Valrobotik")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" signal)
