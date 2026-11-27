@@ -12235,6 +12235,16 @@
 		)
 		(uuid "0800a8dc-57e0-415f-98b1-6a5e537481d1")
 	)
+	(label "DIP_D"
+		(at 173.99 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a9eca96-4f85-4ed3-a5db-37b2f2569402")
+	)
 	(label "ADDR2"
 		(at 163.83 135.89 180)
 		(effects
@@ -12405,16 +12415,6 @@
 		)
 		(uuid "3e237685-769a-44e7-b739-e1226f9c1ada")
 	)
-	(label "DIP_A"
-		(at 173.99 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4585b6bc-4ca5-4b8d-9136-153144b1ef0b")
-	)
 	(label "ILM"
 		(at 64.77 175.26 180)
 		(effects
@@ -12485,6 +12485,16 @@
 		)
 		(uuid "55fdbcbc-66fa-4409-b592-33689cf4a4ee")
 	)
+	(label "DIP_B"
+		(at 256.54 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56b2cca5-25f4-49d5-991b-16a3ae33300f")
+	)
 	(label "GPIO9"
 		(at 259.08 99.06 180)
 		(effects
@@ -12494,6 +12504,16 @@
 			(justify right bottom)
 		)
 		(uuid "58424218-ec0d-4d8e-b509-25791a249b39")
+	)
+	(label "DIP_C"
+		(at 256.54 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58aa8099-54fd-4ff6-ac88-d20adf505ab1")
 	)
 	(label "RGB1"
 		(at 74.93 130.81 0)
@@ -12514,16 +12534,6 @@
 			(justify right bottom)
 		)
 		(uuid "630385f9-f050-4d4f-b02d-af2eb5a311fe")
-	)
-	(label "DIP_B"
-		(at 173.99 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6409a68d-cf2a-4ee1-9135-fcc36af51928")
 	)
 	(label "GPIO13"
 		(at 259.08 109.22 180)
@@ -12554,16 +12564,6 @@
 			(justify right bottom)
 		)
 		(uuid "72d10bdc-fa0a-453f-909a-dfa643ca5dc9")
-	)
-	(label "DIP_C"
-		(at 256.54 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "73325cad-2ef1-4f1e-a92d-02050aa8e5fd")
 	)
 	(label "GPIO14"
 		(at 259.08 111.76 180)
@@ -12685,6 +12685,16 @@
 		)
 		(uuid "a5d72214-d84a-464e-9573-109916f1be1e")
 	)
+	(label "DIP_A"
+		(at 173.99 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7392183-5a4e-41c3-8ac1-b7094b4576fb")
+	)
 	(label "U0TXD"
 		(at 248.92 60.96 0)
 		(effects
@@ -12764,16 +12774,6 @@
 			(justify right bottom)
 		)
 		(uuid "cd6fd149-112f-405e-aaf1-d886b126e6a8")
-	)
-	(label "DIP_D"
-		(at 256.54 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d0f52216-9ed5-4bca-b562-481097d84588")
 	)
 	(label "ILM"
 		(at 259.08 83.82 180)
