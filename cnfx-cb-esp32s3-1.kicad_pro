@@ -641,7 +641,7 @@
       },
       {
         "netclass": "USB",
-        "pattern": "/D*"
+        "pattern": "/D+"
       },
       {
         "netclass": "PWM",
@@ -658,6 +658,10 @@
       {
         "netclass": "CAN",
         "pattern": "/CAN*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/D-"
       }
     ]
   },
