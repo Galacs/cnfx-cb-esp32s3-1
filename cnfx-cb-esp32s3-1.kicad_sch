@@ -3929,6 +3929,25 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -14802,6 +14821,9 @@
 		)
 		(pin "7"
 			(uuid "e161e5a8-72de-401d-86c1-51c2e9a47416")
+		)
+		(pin "9"
+			(uuid "997da8bf-1449-46b0-8c77-87baa8276692")
 		)
 		(instances
 			(project "cnfx-cb-esp32s3-1"
